@@ -6,6 +6,8 @@ import java.util.Map;
 
 public class Portfel {
 
+
+
     private Map<Waluta,Pieniadze > miliony;
 
     public Portfel(){

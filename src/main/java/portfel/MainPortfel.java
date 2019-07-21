@@ -10,8 +10,8 @@ public class MainPortfel {
 
         Osoba osoba2 = new Osoba();
 
-        osoba1.zaplac(osoba2, new Pieniadze(BigDecimal.TEN));
-        osoba2.zaplac(osoba1,new Pieniadze(new BigDecimal("30")));
+        osoba1.zaplac(osoba2, new Pieniadze(BigDecimal.TEN, Waluta.PLN));
+        osoba2.zaplac(osoba1,new Pieniadze(new BigDecimal("10"),Waluta.GBP));
 
     }
 }

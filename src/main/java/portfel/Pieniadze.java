@@ -8,13 +8,11 @@ public class Pieniadze {
 
     private Waluta waluta;
 
-    public Pieniadze(BigDecimal kwotaPoczatkowa) {
+    public Pieniadze(BigDecimal kwotaPoczatkowa,Waluta waluta) {
 
         this.kwota = kwotaPoczatkowa;
 
-        this.waluta = Waluta.PLN;
-
-        this.waluta = Waluta.GBP;
+        this.waluta = waluta;
 
     }
 
@@ -42,5 +40,9 @@ public class Pieniadze {
 
     public Waluta getWaluta() {
         return waluta;
+    }
+
+    public BigDecimal getKwota() {
+        return kwota;
     }
 }

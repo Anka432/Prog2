@@ -9,7 +9,9 @@ public class Osoba {
     }
 
     public boolean czyMaszPortfel() {
-
+        if(portfel.equals(null)){
+        return true;
+    }
         return false;
     }
 
