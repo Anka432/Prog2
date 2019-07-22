@@ -13,6 +13,7 @@ public class Osoba {
         return true;
     }
         return false;
+
     }
 
     public void zaplac(Osoba komu, Pieniadze ile) {

@@ -38,11 +38,6 @@ class PieniadzeTest {
          pytanePieniadze = new Pieniadze(new BigDecimal(0),Waluta.PLN);
 
         assertTrue(pytanePieniadze.czyCieStac(wymaganePieniadze));
-
-
-
-
-
     }
 
 
