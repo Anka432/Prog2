@@ -34,8 +34,8 @@ class PieniadzeTest {
 
         assertFalse(pytanePieniadze.czyCieStac(wymaganePieniadze));
 
-         wymaganePieniadze = new Pieniadze(new BigDecimal(0),Waluta.PLN);
-         pytanePieniadze = new Pieniadze(new BigDecimal(0),Waluta.PLN);
+         wymaganePieniadze = new Pieniadze(new BigDecimal(20),Waluta.PLN);
+         pytanePieniadze = new Pieniadze(new BigDecimal(70),Waluta.PLN);
 
         assertTrue(pytanePieniadze.czyCieStac(wymaganePieniadze));
     }

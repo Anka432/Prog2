@@ -11,8 +11,6 @@ class OsobaTest {
 
         Portfel portfel = new Portfel();
         portfel.equals(portfel);
-
-
     }
 
     @Test
